@@ -6,9 +6,9 @@ A student management system
 
 
 Create the DB tables first:
-   python manage.py migrate
+python manage.py migrate
 
 
 Run the development web server:
- python manage.py runserver 8000
+python manage.py runserver 8000
 
