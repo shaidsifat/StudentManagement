@@ -10,6 +10,7 @@ from .models import Classes,Subject,Student
 from school.serializers import ClassSerializer
 from django.db.models import Q
 
+#GET AND POST API FOR CLASS
 class ListofclassApiView(APIView):
     """Delivery task status get Api view."""
     #permission_classes = [IsAdminUser]
@@ -34,7 +35,7 @@ class ListofclassApiView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)        
     
     
-    
+# Class delete modify api view    
 class ListofclassApideleteView(APIView):
     
     
@@ -57,7 +58,7 @@ class ListofclassApideleteView(APIView):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         return Response({"message":"user is not teacher"})
     
-    
+# Filter APi for class and subject  
 class FilterApiview(APIView):
     
     permission_classes = [IsAdminUser]

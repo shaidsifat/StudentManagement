@@ -3,7 +3,7 @@ import uuid
 # Create your models here.
 
 
-
+# SUBJECT MODEL
 class Subject(models.Model):
 
     name = models.CharField(max_length=200)
@@ -38,7 +38,8 @@ class Subject(models.Model):
            self.gpa = 5.00    
            
         super(Subject, self).save(*args, **kwrgs)       
-        
+
+#STUDENT MODEL        
 class Student(models.Model):
 
     name = models.CharField(max_length=200)
@@ -46,7 +47,8 @@ class Student(models.Model):
     
     def __str__(self):
         return f"{self.name}{self.id}"
-
+        
+#Classes model
 class Classes(models.Model):
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
