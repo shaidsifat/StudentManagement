@@ -1,5 +1,5 @@
 # StudentManagement
-a student management system
+A student management system
 
 
 Running the Application
