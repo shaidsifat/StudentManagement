@@ -11,7 +11,7 @@ Running the Application choose following command:
          python manage.py runserver 8000
 
 
-#User management system
+# User management system
 
 
   FOR superuser there is a superuser
