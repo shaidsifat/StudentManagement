@@ -14,6 +14,9 @@ Running the Application choose following command:
      2) Run the development web server:
          python3 manage.py runserver 8000
 
+     3) for login django admin panel using command:
+
+        python3 manage.py createsuperuser
 
 # User management system
 
