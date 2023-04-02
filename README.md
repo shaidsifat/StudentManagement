@@ -5,7 +5,7 @@ A student management system
 Running the Application choose following command:
 
 
-
+     Using for linux -
      1) run the following command : 
          python3 -m venv env
          source env/Scripts/activate
