@@ -6,7 +6,9 @@ Running the Application choose following command:
 
 
 
-     1) run the command : 
+     1) run the following command : 
+         python3 -m venv env
+         source env/Scripts/activate
          pip install -r requirements.txt 
          python3 manage.py migrate
      2) Run the development web server:
